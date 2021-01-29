@@ -1,0 +1,43 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+
+    background-color: #14c004 !important;
+    
+    }
+
+    html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+  margin-top: 25px;
+
+}
+
+#home-container {
+    margin-top: 25px;
+  }
+  
+  .jumbotron {
+    background-image: asset-url('index.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+  }
+  #loh {
+    background-image: asset-url('index1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+    
+  }
